@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <table border="2px">
+    <form action="./submitted.html">
+      <tr>
+        <th colspan="2">Registration Form</th>
+      </tr>
+
+      <tr>
+        <td>Student Name:</td>
+        <td> <input type="text" required> </td>
+      </tr>
+
+      <tr>
+        <td>Father's Name:</td>
+        <td> <input type="text" required> </td>
+      </tr>
+
+      <tr>
+        <td>Mother's Name:</td>
+        <td> <input type="text" required> </td>
+      </tr>
+
+      <tr>
+        <td>Date Of Birth:</td>
+        <td> <input type="date" required> </td>
+      </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td> <input type="radio" name="gender" id="male" required> <label for="male">Male</label>
+             <input type="radio" name="gender" id="female" required> <label for="female">Female</label> </td>
+      </tr>
+
+      <tr>
+        <td>E-mail ID:</td>
+        <td> <input type="email" placeholder="example@gmail.com" required> </td>
+      </tr>
+
+      <tr>
+        <td>Mobile No:</td>
+        <td> <input type="number" required></td>
+      </tr>
+
+      <tr>
+        <td>Address:</td>
+        <td> <textarea cols="30" rows="10" placeholder="Enter Address" required></textarea> </td>
+      </tr>
+     
+      <tr>
+        <td>City:</td>
+        <td> <input type="text" required></td>
+      </tr>
+
+      <tr>
+        <td>Country:</td>
+        <td>
+          <select required>
+            <option>Pakistan</option>
+            <option>Afghanistan</option>
+            <option>Iran</option>
+            <option>Iraq</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center"> <button>SUBMIT</button> </td>
+      </tr>
+
+    </form>
+
+
+
+
+
+  </table>
+</body>
+
+</html>
