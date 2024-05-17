@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="table-body">
+  <table class="table">
+    <form action="./submitted.html">
+      <tr>
+        <th class="td th" colspan="2">Registration Form</th>
+      </tr>
+
+      <tr>
+        <td class="td label">Student Name:</td>
+        <td class="td">
+          <input placeholder="Student Name..." class="input" type="text" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Username:</td>
+        <td class="td">
+          <input placeholder="Username..." class="input" type="text" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Password:</td>
+        <td class="td">
+          <input placeholder="Password..." class="input" type="password" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Date Of Birth:</td>
+        <td class="td">
+          <input class="input" type="date" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Gender:</td>
+        <td class="td radio-container">
+          <input class="radio" type="radio" name="gender" id="male" required> <label class="input" for="male">Male</label>
+          <input class="radio" type="radio" name="gender" id="female" required> <label class="input" for="female">Female</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">E-mail ID:</td>
+        <td class="td">
+          <input class="input" type="email" placeholder="example@gmail.com" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Mobile No:</td>
+        <td class="td">
+          <input class="input" placeholder="+92 222222" type="number" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">CNIC/ B.Form No:</td>
+        <td class="td">
+          <input class="input" placeholder="02301-4444" type="number" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Address:</td>
+        <td class="td">
+          <textarea class="input" cols="20" rows="7" placeholder="Enter Address!" required></textarea>
+        </td>
+      </tr>
+     
+      <tr>
+        <td class="td label"><label for="country">Country:</label></td>
+        <td class="td">
+          <select name="country" id="country" class="input">
+            <option selected disabled>--select--</option>
+            <option value="pak">Pakistan</option>
+            <option value="isl">Islamabad</option>
+            <option value="afg">Afghanistan</option>
+            <option value="phl">Phalestinne</option>
+            <option value="faisal">Faisalabad</option>
+            <option value="Iran">Iran</option>
+            <option value="Iraq">Iraq</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">City:</td>
+        <td class="td">
+          <input class="input" placeholder="Enter Your city..." type="text" required></td>
+      </tr>
+
+      <tr>
+        <td class="td label"><label for="course">Courses:</label></td>
+        <td class="td">
+          <input id="web development" value="web development" name="course" class="input" type="checkbox">
+          <label class="input" for="web development">web development</label>
+          <br>
+          <input id="app development" value="app development" name="course" class="input" type="checkbox">
+          <label class="input" for="app development">app development</label>
+          <br>
+          <input id="python development" value="python" name="course" class="input" type="checkbox">
+          <label class="input" for="python development">python development</label>
+          <br>
+          <input id="full stack development" value="full stack development" name="course" class="input" type="checkbox">
+          <label class="input" for="full stack development">full stack development</label>
+          <br>
+          <input id="frontend development" value="frontend development" name="course" class="input" type="checkbox">
+          <label class="input" for="frontend development">frontend development</label>
+          <br>
+          <input id="backend development" value="backend development" name="course" class="input" type="checkbox">
+          <label class="input" for="backend development">backend development</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="td label">Upload Your Picture:</td>
+        <td class="td">
+          <input class="input" type="file" required></td>
+      </tr>
+
+      <tr>
+        <td class="td btn-container" colspan="2">
+          <input class="btn" type="submit" value="Submit">
+        </td>
+      </tr>
+
+    </form>
+
+
+
+
+
+  </table>
+</body>
+
+</html>
